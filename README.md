@@ -23,11 +23,35 @@ console.log(`[perf] action ${action}`,
 });
 ~~~
 
+~~~js
+// It can also measure FPS rendering
+perf.onFPS((fps, time) => {
+    console.log(`It is now ${time} and we are rendering at ${fps} frames per second`);
+}, 2000); // measure and call every 2 seconds
+~~~
+
 ## Installation
 
 ~~~sh
 $ npm install performance-plus
 ~~~
+
+## Methods
+
+Commonly used methods:
+
+~~~js
+perf.now();                     // high-res timestamp
+perf.start('something');
+perf.end('something');
+perf.duration('something');     // in ms
+perf.mean('something');         // in ms
+perf.sdev('something');         // in ms
+perf.getEntriesByName('something'); // all measures for this name
+perf.getEntryByName('something');   // last measure for this name
+~~~
+
+[Complete methods with JSDocs](https://github.com/andjosh/performance-plus/blob/master/index.js)
 
 ## Acknowledgements
 
