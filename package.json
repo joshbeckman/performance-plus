@@ -1,6 +1,6 @@
 {
   "name": "performance-plus",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A utility and convenience library for the browser-based performance API, with support for IE8+",
   "main": "index.js",
   "scripts": {
