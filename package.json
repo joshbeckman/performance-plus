@@ -1,0 +1,27 @@
+{
+  "name": "performance-plus",
+  "version": "0.1.0",
+  "description": "A utility and convenience library for the browser-based performance API, with support for IE8+",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andjosh/performance-plus.git"
+  },
+  "keywords": [
+    "perf",
+    "performance",
+    "browser",
+    "client",
+    "now",
+    "measure"
+  ],
+  "author": "andjosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andjosh/performance-plus/issues"
+  },
+  "homepage": "https://github.com/andjosh/performance-plus#readme"
+}
