@@ -33,7 +33,7 @@ perf.onFPS((fps, time) => {
 ## Installation
 
 ~~~sh
-$ npm install performance-plus
+$ npm install performance-plus --save
 ~~~
 
 ## Methods
